@@ -1,3 +1,6 @@
+import telegram
+print("PTB version:", telegram.__version__)
+
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 
